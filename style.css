@@ -14,6 +14,201 @@ Text Domain: aerodoktor
  *  1. Main Style
 /* ------------------------------------------------------------------------- */
 
+/* start general styling */
+.btn-link {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #939393;
+  text-decoration: none; }
+  .btn-link:hover, .btn-link:focus, .btn-link:active {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0;
+    color: #fff; }
+
+.btn-secondary {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #3579b8; }
+  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0;
+    background-color: #fff;
+    color: #3579b8;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05); }
+
+.btn-info {
+  background: -webkit-linear-gradient(0deg, #360033 0%, #3498db 100%);
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #fff;
+  border: 0;
+  -webkit-transition: all 0.333s;
+  transition: all 0.333s;
+  background-color: #fff;
+  border: 0; }
+  .btn-info:hover, .btn-info:focus, .btn-info:active {
+    outline: 0;
+    box-shadow: 0 0 0;
+    text-decoration: none;
+    color: #fff;
+    opacity: .9;
+    border: 0px; }
+
+.btn-sucess {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #3579b8;
+  border: 0;
+  -webkit-transition: all 0.333s;
+  transition: all 0.333s;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05); }
+  .btn-sucess:hover, .btn-sucess:focus, .btn-sucess:active {
+    text-decoration: none;
+    outline: 0;
+    color: #fff;
+    background-color: #3579b8;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05); }
+
+.btn-primary {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+  -webkit-transition: all 0.333s;
+  transition: all 0.333s;
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  border-bottom: 3px solid #292556; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    text-decoration: none;
+    outline: 0;
+    color: #2e2e2e;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-bottom: 3px solid #f0f0f0; }
+
+.btn-danger {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+  -webkit-transition: all 0.333s;
+  transition: all 0.333s;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-bottom: 3px solid #fff; }
+  .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+    text-decoration: none;
+    outline: 0;
+    color: #2e2e2e;
+    background: #fff;
+    border: 1px solid #fff;
+    border-bottom: 3px solid #fff; }
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.9); }
+  .modal .modal-dialog {
+    position: relative; }
+  .modal button {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    right: -20px;
+    padding: 5px 16px;
+    border: 0;
+    box-shadow: 0;
+    margin: 0;
+    background-color: red;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(0deg, #360033 0%, #3498db 100%);
+    background-image: -ms-linear-gradient(0deg, #360033 0%, #3498db 100%);
+    opacity: 1;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer; }
+    .modal button:hover, .modal button:active, .modal button:focus {
+      outline: none; }
+  .modal .modal-content {
+    position: relative;
+    margin-top: 50%;
+    border: 0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05); }
+    .modal .modal-content .modal-body {
+      padding: 0;
+      margin: 0; }
+      .modal .modal-content .modal-body p {
+        text-align: center;
+        text-transform: capitalize; }
+
+/* end general styling */
+/* start basics styling */
+.section-head {
+  text-align: center; }
+  .section-head img {
+    width: 85px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .section-head h1 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Raleway'; }
+  .section-head p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-bottom: 50px; }
+
 /* start top navbar */
 #top-nav {
   background-image: -webkit-linear-gradient(0deg, #360033 0%, #3498db 100%);
@@ -21,8 +216,8 @@ Text Domain: aerodoktor
   #top-nav .top {
     background-color: #2e2e2e;
     padding: 0 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; }
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
     #top-nav .top ul {
       padding: 0;
       margin: 0; }
