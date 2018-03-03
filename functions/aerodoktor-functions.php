@@ -1,8 +1,8 @@
 <?php
 /**
- * Aerodoktor functions and defenitions
+ * Modality functions and defenitions
  *
- * @package Aerodoktor
+ * @package Modality
 */
 
 /**
