@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Modality
+ * @package Aerodoktor
  */
 $modality_theme_options = modality_get_options( 'modality_theme_options' );
 get_header(); ?>
