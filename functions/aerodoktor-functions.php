@@ -13,7 +13,7 @@
 /**
  * Add scripts function
  */
-function aerodoktor_add_script_function()() {
+function aerodoktor_add_script_function() {
     /**
      * Enqueue css
     */
