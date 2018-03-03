@@ -27,5 +27,5 @@ function enqueue_scripts () {
     wp_enqueue_script('jquery', get_template_directory_url() . '/js/jquery-1.9.1.min.js');
     wp_enqueue_script('main', get_template_directory_url() . '/js/main.js');
     wp_enqueue_script('modernizr', get_template_directory_url() . '/js/modernizr-2.6.2.min.js');
-
+}
 add_action('wp_enqueue_scripts','aerodoktor_add_script_function');
