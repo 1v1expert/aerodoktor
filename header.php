@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="left">
-                            <a href="" class="navbar-brand"><img src="images/logo.png"></a>
+                            <a href="" class="navbar-brand"><img src="/images/logo.png"></a>
                         </div>
                     </div>
                 </div>
