@@ -1,14 +1,14 @@
 <?php
 /**
- * Modality functions and defenitions
+ * Aerodoktor functions and defenitions
  *
- * @package Modality
+ * @package Aerodoktor
 */
 
 /**
  * Loads theme setup functions.
  */
-function modality_setup() {
+function aerodoktor_setup() {
 
 	/**
  	* Sets up the content width.
@@ -20,8 +20,6 @@ function modality_setup() {
 	 * Makes theme available for translation
 	 *
 	 */
-	load_theme_textdomain( 'modality', get_template_directory() . '/languages' );
-
 	/**
  	* This theme styles the visual editor with editor-style.css to match the theme style.
  	*/
@@ -40,7 +38,7 @@ function modality_setup() {
 	/**
  	* Register Navigation
  	*/
-	register_nav_menu('main_navigation', __('Primary Menu', 'modality') );
+	register_nav_menu('main_navigation', __('Primary Menu', 'aerodoktor') );
 
 	/**
  	* Support a variety of post formats.
@@ -64,7 +62,7 @@ function modality_setup() {
 	/**
  	* Sets up theme custom background.
  	*/
-	add_theme_support( 'custom-background', apply_filters( 'modality_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'aerodoktor_custom_background_args', array(
 		'default-color' => 'fcfcfc',
 		'default-image' => '',
 	) ) );
@@ -72,7 +70,7 @@ function modality_setup() {
 	/**
 	* Sets up theme custom header image.
 	*/
-	add_theme_support( 'custom-header', apply_filters( 'modality_custom_header_args', array(
+	add_theme_support( 'custom-header', apply_filters( 'aerodoktor_custom_header_args', array(
 		'width'                  => 1920,
 		'height'                 => 200,
 		'flex-height'            => true,
@@ -82,11 +80,11 @@ function modality_setup() {
 	/*
 	* Enable support for custom logo.
 	*/
-	add_image_size( 'modality-logo', 300, 80 );
-	add_theme_support( 'custom-logo', array( 'size' => 'modality-logo' ) );
+	add_image_size( 'aerodoktor-logo', 300, 80 );
+	add_theme_support( 'custom-logo', array( 'size' => 'aerodoktor-logo' ) );
 }
 
-add_action( 'after_setup_theme', 'modality_setup' );
+add_action( 'after_setup_theme', 'aerodoktor_setup' );
 
 /**
  * Add scripts function
