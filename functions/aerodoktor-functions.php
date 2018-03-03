@@ -20,9 +20,9 @@ function enqueue_styles() {
     wp_register_style('bootstrap', get_template_directory_url() . '/css/bootstrap.min.css');
     wp_register_style('tether', get_template_directory_url() . '/css/tether.min.css');
 
-    wp_enqueue_style('aerodoktor-style', get_stylesheet_url());
+    wp_enqueue_style('aerodoktor-style', get_stylesheet_uri());
     wp_enqueue_style('bootstrap');
-    wp_enqueue_style('tether', get_template_directory_url() . '/css/tether.min.css');
+    wp_enqueue_style('tether');
 }
 add_action('wp_enqueue_scripts', 'enqueue_styles');
 
