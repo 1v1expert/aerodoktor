@@ -6,6 +6,6 @@
  */
  get_header(); ?>
 
- <div> <h2> HELLO </h2> </div>
+<h2> PAGE.PHP </h2>
 
  <?php get_footer(); ?>
