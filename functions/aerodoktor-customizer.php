@@ -64,7 +64,7 @@ function aerodoktor_get_option_defaults() {
 		'logo_image' => get_template_directory_uri() . '/images/logo.png',
 		'clock_image' => get_template_directory_uri() . '/images/Clock.png',
 		'addres_image' => get_template_directory_uri() . '/images/Info-copy.png',
-		'placeholder_image' => get_template_directory_uri() . '/images/slide.jpg'
+		'placeholder_image' => get_template_directory_uri() . '/images/slide.jpg',
 		'phone_image' => get_template_directory_uri() . '/images/phone.png'
 
 		);
