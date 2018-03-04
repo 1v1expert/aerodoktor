@@ -1,3 +1,12 @@
+    <?php
+    /**
+    * The Header of the theme.
+    *
+    * Displays all of the <head> section and everything up till <main id="main">
+    *
+    * @package Aerodoktor
+    */
+    $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' ); ?>
     <!-- start footer -->
     <footer id="footer">
         <div class="container">
@@ -33,7 +42,7 @@
                     <div class="blog">
                         <h1>Блог</h1>
                         <div class="post">
-                            <div class="left"><img src="etc/img/4-2.jpg" alt=""></div>
+                            <div class="left"><img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="post1"></div>
                             <div class="right">
                                 <p>Lorem ipsum dolor sit amet</p>
                                 <p class="p2">25 april 2016</p>
