@@ -63,7 +63,7 @@ function aerodoktor_get_option_defaults() {
 	$defaults = array(
 		'logo_image' => get_template_directory_uri() . '/images/logo.png',
 		'clock_image' => get_template_directory_uri() . '/images/Clock.png',
-		'addres_image' => get_template_directory_uri() . '/images/info-copy.png',
+		'addres_image' => get_template_directory_uri() . '/images/Info-copy.png',
 		'phone_image' => get_template_directory_uri() . '/images/phone.png'
 
 		);
