@@ -559,11 +559,12 @@ Text Domain: aerodoktor
           margin: 5px 0;
           text-align: left;
           font-family: 'Open Sans';
-          font-size: 14px;
+          font-size: 12px;
           font-weight: 400;
           line-height: 28px;
           letter-spacing: 1px;
-          text-transform: capitalize; }
+          text-transform: capitalize;
+          white-space: pre-wrap; }
         #footer .about ul li .fa {
           padding-right: 15px; }
     #footer .about p {
