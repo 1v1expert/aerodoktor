@@ -12,6 +12,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -107,7 +108,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
             <a class="nav-link dropdown-toggle" href="#" id="homeMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Главная</a>
             <div class="dropdown-menu" >
               <a class="dropdown-item" href="">О нас</a>
-              <a class="dropdown-item" href="">ГОвно мы</a>
+              <a class="dropdown-item" href="">Много интересного</a>
             </div>
           </li>
           <li class="nav-item dropdown">

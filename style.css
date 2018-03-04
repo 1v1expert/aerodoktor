@@ -323,7 +323,7 @@ Text Domain: aerodoktor
     #navbar .navbar .input-group {
       width: 300px; }
       #navbar .navbar .input-group .btn {
-        background-color: #f0f0f0;
+        background-color: #ccc;
         border: 0;
         padding: 15px 20px;
         font-family: 'Open Sans';
@@ -339,7 +339,7 @@ Text Domain: aerodoktor
           outline: 0;
           box-shadow: 0 0 0; }
       #navbar .navbar .input-group input {
-        background-color: #f0f0f0;
+        background-color: #ccc;
         border: 0;
         padding: 10px 20px;
         font-family: 'Open Sans';
