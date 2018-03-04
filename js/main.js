@@ -1,11 +1,3 @@
-$(function () {
-  'use:static';
-
-// start loading page
-//var pLoad = $('#loading p').text('pleas wait page loading' + ' . .');
-//$(document).ready(function () {
-//  $("#loading").css('display' , 'none');
-//});
 $(document).ready(function() {
 
 	setTimeout(function(){
@@ -14,6 +6,16 @@ $(document).ready(function() {
 	}, 300);
 
 });
+
+$(function () {
+  'use:static';
+
+// start loading page
+//var pLoad = $('#loading p').text('pleas wait page loading' + ' . .');
+//$(document).ready(function () {
+//  $("#loading").css('display' , 'none');
+//});
+
 // end loading page
 
 // start dorpdown menu with hover
