@@ -65,7 +65,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="left">
-                                        <img src="images/Clock.png" alt="Clock">
+                                        <img src="<?php echo esc_url($aerodoktor_theme_options['clock_image']); ?>" alt="Clock">
                                     </div>
                                     <div class="right">
                                         <p>Работаем круглосуточно - 24/7</p>
@@ -73,7 +73,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="left">
-                                        <img src="images/Info-copy.png" alt="addres">
+                                        <img src="<?php echo esc_url($aerodoktor_theme_options['addres_image']); ?>" alt="addres">
                                     </div>
                                     <div class="right">
                                         <p> г. Москва, м. Электрозаводская</p>
@@ -81,7 +81,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="left">
-                                        <img src="images/phone.png" alt="phone">
+                                        <img src="<?php echo esc_url($aerodoktor_theme_options['phone_image']); ?>" alt="phone">
                                     </div>
                                     <div class="right">
                                         <p>8 (985) 229-67-56 info@aerodoktor.ru</p>

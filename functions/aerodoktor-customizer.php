@@ -62,6 +62,10 @@ add_action('customize_register', 'aerodoktor_customize_register');
 function aerodoktor_get_option_defaults() {
 	$defaults = array(
 		'logo_image' => get_template_directory_uri() . '/images/logo.png',
+		'clock_image' => get_template_directory_uri() . '/images/Clock.png',
+		'addres_image' => get_template_directory_uri() . '/images/info-copy.png',
+		'phone_image' => get_template_directory_uri() . '/images/phone.png'
+
 		);
 	return apply_filters( 'aerodoktor_get_option_defaults', $defaults );
 }
