@@ -50,7 +50,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
         </div>
     </section>
     <!-- start header -->
-    <div id="header">
+    <header id="header">
         <div class="container">
             <div class="head">
                 <div class="row">
@@ -92,4 +92,48 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                 </div>
             </div>
         </div>
+    </header>
+    <!-- end header -->
+    <!-- start navbar -->
+    <div id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu"   aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Главная</a>
+            <div class="dropdown-menu" >
+              <a class="dropdown-item" href="">О нас</a>
+              <a class="dropdown-item" href="">ГОвно мы</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Страницы</a>
+            <div class="dropdown-menu" >
+              <a class="dropdown-item" href="">О нас</a>
+              <a class="dropdown-item" href="">Контакты</a>
+              <a class="dropdown-item" href="">Докторы</a>
+              <a class="dropdown-item" href="">Мы</a>
+              <a class="dropdown-item" href="">Наш блог</a>
+              <a class="dropdown-item" href="">Пост</a>
+              <a class="dropdown-item" href="">FAQ</a>
+              <a class="dropdown-item" href="">Галерея</a>
+              <a class="dropdown-item" href="">Прайс-лист</a>
+              <a class="dropdown-item" href="">Сервисы</a>
+            </div>
+          </li>
+        </ul>
+
+        <form class="form-inline input-group hidden-md-down">
+          <input class="form-control" type="text" placeholder="Найти">
+          <button class="btn btn-outline-success input-group-addon" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+      </div>
+      </nav>
     </div>
+  </div>
+  <!-- end navbar -->
