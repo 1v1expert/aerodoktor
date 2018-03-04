@@ -45,14 +45,14 @@
                             <div class="left"><img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="post1"></div>
                             <div class="right">
                                 <p>Lorem ipsum dolor sit amet</p>
-                                <p class="p2">25 april 2016</p>
+                                <p class="p2">25 апреля 2017</p>
                             </div>
                         </div>
                         <div class="post">
-                            <div class="left"><img src="etc/img/4-2.jpg" alt=""></div>
+                            <div class="left"><img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt=""></div>
                             <div class="right">
                                 <p>Lorem ipsum dolor sit amet</p>
-                                <p class="p2">25 april 2016</p>
+                                <p class="p2">25 января 2018</p>
                             </div>
                         </div>
                     </div>
@@ -77,12 +77,12 @@
                 <div class="col-lg-3">
                     <div class="projects">
                         <h1>Проекты</h1>
-                        <img src="etc/img/box-1.png" alt="">
-                        <img src="etc/img/box-2.png" alt="">
-                        <img src="etc/img/box-3.png" alt="">
-                        <img src="etc/img/box-4.png" alt="">
-                        <img src="etc/img/box-5.jpg" alt="">
-                        <img src="etc/img/box-6.jpg" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
+                        <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
                     </div>
                 </div>
             </div>
