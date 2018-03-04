@@ -261,7 +261,7 @@ Text Domain: aerodoktor
         font-weight: 400;
         line-height: 28px;
         letter-spacing: 1px;
-        text-transform: capitalize;
+        /*text-transform: capitalize;*/
         color: #fff;
         line-height: 20px; }
 
