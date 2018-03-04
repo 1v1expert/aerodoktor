@@ -6,6 +6,7 @@
  *
  * @package Aerodoktor
  */
+$modality_theme_options = aerodoktor_get_options( 'modality_theme_options' );
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -55,7 +56,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="left">
-                            <a href="" class="navbar-brand"><img src="/images/logo.png"></a>
+                            <a href="" class="navbar-brand"><img src="<?php echo esc_url($aerodoktor_theme_options['services_image']); ?>"></a>
                         </div>
                     </div>
                 </div>
