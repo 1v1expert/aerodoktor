@@ -138,6 +138,3 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
     </div>
   </div>
   <!-- end navbar -->
-  <!-- start footer -->
-
-  <!-- end footer -->
