@@ -65,8 +65,10 @@ function aerodoktor_get_option_defaults() {
 		'clock_image' => get_template_directory_uri() . '/images/Clock.png',
 		'addres_image' => get_template_directory_uri() . '/images/Info-copy.png',
 		'placeholder_image' => get_template_directory_uri() . '/images/slide.jpg',
-		'phone_image' => get_template_directory_uri() . '/images/phone.png'
-
+		'docs-image' => get_template_directory_uri() . '/images/docs.png',
+		'line-image' => get_template_directory_uri() . '/images/line.png',
+		'icon-1' => get_template_directory_uri() . '/images/icon-1.png',
+		'phone_image' => get_template_directory_uri() . '/images/phone.png',
 		);
 	return apply_filters( 'aerodoktor_get_option_defaults', $defaults );
 }

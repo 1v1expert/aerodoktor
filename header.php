@@ -41,7 +41,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                         <div class="right hidden-md-down">
                             <ul>
                                 <li>
-                                    <a href="" class="btn btn-link">8 (985) 229-67-56</a>
+                                    <a href="" class="btn btn-link">+7 (916)-653-71-00</a>
                                 </li>
                             </ul>
                         </div>
@@ -76,7 +76,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                                         <img src="<?php echo esc_url($aerodoktor_theme_options['addres_image']); ?>" alt="addres">
                                     </div>
                                     <div class="right">
-                                        <p> г. Москва, м. Электрозаводская</p>
+                                        <p> 21471, г. Москва, Рябиновая ул., д. 43</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -84,7 +84,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                                         <img src="<?php echo esc_url($aerodoktor_theme_options['phone_image']); ?>" alt="phone">
                                     </div>
                                     <div class="right">
-                                        <p>8 (985) 229-67-56 info@aerodoktor.ru</p>
+                                        <p>+7 (916)-653-71-00 info@aerodoktor.ru</p>
                                     </div>
                                 </div>
                             </div>
@@ -116,14 +116,6 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
             <div class="dropdown-menu" >
               <a class="dropdown-item" href="">О нас</a>
               <a class="dropdown-item" href="">Контакты</a>
-              <a class="dropdown-item" href="">Докторы</a>
-              <a class="dropdown-item" href="">Мы</a>
-              <a class="dropdown-item" href="">Наш блог</a>
-              <a class="dropdown-item" href="">Пост</a>
-              <a class="dropdown-item" href="">FAQ</a>
-              <a class="dropdown-item" href="">Галерея</a>
-              <a class="dropdown-item" href="">Прайс-лист</a>
-              <a class="dropdown-item" href="">Сервисы</a>
             </div>
           </li>
         </ul>

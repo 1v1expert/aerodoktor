@@ -32,9 +32,9 @@
                     <div class="about">
                         <h1>О нас</h1>
                         <ul>
-                            <li><a href="" class="btn btn-link"><i class="fa fa-map"></i>Москва, м. Новорижская </a></li>
+                            <li><a href="" class="btn btn-link"><i class="fa fa-map"></i>21471, г. Москва, Рябиновая ул., д. 43</a></li>
                             <li><a href="" class="btn btn-link"><i class="fa fa-envelope"></i>info@aerodoktor.ru</a></li>
-                            <li><a href="" class="btn btn-link"><i class="fa fa-phone"></i>+7 (985) 229-67-56</a></li>
+                            <li><a href="" class="btn btn-link"><i class="fa fa-phone"></i>+7 (916)-653-71-00</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                     <div class="bottom">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p>Copyright &copy; 2018 AeroDoktor Theme by <a href="http://vk.com/1v1expert" >VLADDOS</a> </p>
+                                <p>Copyright &copy; 2007 - 2018 AeroDoktor Theme by <a href="http://vk.com/1v1expert" >VLADDOS</a> </p>
                             </div>
                             <div class="col-lg-2">
                                 <div class="up">
