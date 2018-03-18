@@ -12,6 +12,24 @@ $(document).ready(function() {
         $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
     });
     // end dropdown menu without click
+     $(".owl-carousel").owlCarousel({
+         loop:true,
+         margin:0,
+         nav:true,
+         dots:false,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+                 items:1
+             }
+         }
+     });
+ // end slide about
 
 });
 
@@ -44,25 +62,8 @@ $(document).ready(function() {
 //
 // // start about page
 //
-// // slide about
-// $(".owl-carousel").owlCarousel({
-//  loop:true,
-//  margin:0,
-//  nav:true,
-//  dots:false,
-//  responsive:{
-//      0:{
-//          items:1
-//      },
-//      600:{
-//          items:1
-//      },
-//      1000:{
-//          items:1
-//      }
-//  }
-// });
-// // end slide about
+// slide about
+
 //
 // // end about bage
 //
