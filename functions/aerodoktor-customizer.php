@@ -71,6 +71,8 @@ function aerodoktor_get_option_defaults() {
 		'icon-2' => get_template_directory_uri() . '/images/icon-2.png',
 		'icon-3' => get_template_directory_uri() . '/images/icon-3.png',
 		'icon-4' => get_template_directory_uri() . '/images/icon-4.png',
+		'doc2' => get_template_directory_uri() . '/images/doc2.png',
+		'1-1_image' => get_template_directory_uri() . '/images/1-1.jpg',
 		'phone_image' => get_template_directory_uri() . '/images/phone.png',
 		);
 	return apply_filters( 'aerodoktor_get_option_defaults', $defaults );

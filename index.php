@@ -17,8 +17,8 @@ get_header(); ?>
                 <div class="col-lg-5">
                     <div class="slide">
                         <div class="owl-carousel owl-theme">
-                            <div class="item"><img src="images/doc2.png" alt=""></div>
-                            <div class="item"><img src="images/1-1.jpg" alt=""></div>
+                            <div class="item"><img src="<?php echo esc_url($aerodoktor_theme_options['doc2']); ?>" alt=""></div>
+                            <div class="item"><img src="<?php echo esc_url($aerodoktor_theme_options['1-1_image']); ?>" alt=""></div>
                         </div>
                     </div>
                 </div>
