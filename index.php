@@ -8,6 +8,56 @@
  */
 $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' );
 get_header(); ?>
+
+<!-- section about-->
+<div id="about-us">
+    <section id="word">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="slide">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="images/doc2.png" alt=""></div>
+                            <div class="item"><img src="images/1-1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="list">
+                        <h1>AERO DOKTOR</h1>
+                        <p>Необходима оперативная транспортировка больного для оказания медицинской помощи в других
+городах и странах? Наиболее быстрый и безопасный вариант – санавиация в Москве AERO DOCTOR. Квалифицированно и оперативно.
+                        </p>
+                        <div class="mylist">
+                            <div class="left">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check"></i>
+                                        <p>Гарантируем безопасность</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check"></i>
+                                        <p>Гарантируем оперативность</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check"></i>
+                                        <p>Работаем круглосуточно 24/7 </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- end section about-->
+
 <!-- start Emergency Cases -->
   <section id="cases">
     <div class="container">
