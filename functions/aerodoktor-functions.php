@@ -30,5 +30,6 @@ function aerodoktor_add_script_function() {
     wp_enqueue_script('jquery-dop');
     wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js');
     wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js');
+    wp_enqueue_script('owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js');
 }
 add_action('wp_enqueue_scripts','aerodoktor_add_script_function');
