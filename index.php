@@ -180,73 +180,75 @@ get_header(); ?>
 </section>
 <!-- end Emergency Cases -->
 
-<!-- start Emergency Cases -->
-  <section id="cases">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-head">
-            <h1>Наши возможности</h1>
-            <img src="<?php echo esc_url($aerodoktor_theme_options['line-image']); ?>" alt="Line">
-            <p>
-              Наша компания существует на рынке санитарной авиацией и оказывает медицинскую неотложную помощь с 2007 года. Являясь лидером в области дальних транспортировок лежачих пациентов по России и за границу, приоритетом работы нашей компании является безопастность и эффективность.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- start card -->
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="top">
-              <img src="<?php echo esc_url($aerodoktor_theme_options['icon-1']); ?>" alt="icons">
-              <h1>Транспортировка больных</h1>
-            </div>
-            <div class="bottom">
-              <P>самой высокой категории сложности, в тяжелом и крайне тяжелом состоянии;</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="top">
-              <img src="<?php echo esc_url($aerodoktor_theme_options['icon-1']); ?>" alt="icons">
-              <h1>Медицинская эвакуация</h1>
-            </div>
-            <div class="bottom">
-              <P>из туристических стран и труднодоступных территорий; </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="top">
-              <img src="<?php echo esc_url($aerodoktor_theme_options['icon-1']); ?>" alt="icons">
-              <h1>«Скорая Помощь»</h1>
-            </div>
-            <div class="bottom">
-              <P>по мировым стандартам, «Неотложная Помощь» взрослым и детям; </p>
-            </div>
-          </div>
-            <div class="card">
-                <div class="top">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['icon-1']); ?>" alt="icons">
-                    <h1>Медицинская перевозка больных</h1>
-                </div>
-                <div class="bottom">
-                    <P>по Москве, в области, регионах, странах СНГ и других государствах.</p>
-                </div>
-            </div>
-          <a href="#" class="btn btn-primary">Узнать подробнее</a>
-        </div>
-        <!-- end cards -->
-        <!-- start img -->
-        <div class="col-lg-6">
-          <div class="image">
-            <img src="<?php echo esc_url($aerodoktor_theme_options['docs-image']); ?>" alt="image">
-          </div>
-        </div>
-        <!-- end img -->
-      </div>
-    </div>
+<!-- start section tips -->
+  <section id="tips-2">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12">
+         <div class="section-head">
+           <h1>Список оказываемых услуг</h1>
+           <img src="<?php echo esc_url($aerodoktor_theme_options['line-image']); ?>" alt="line">
+           <p>
+              Наша компания предоставляет <br> следующие виды транспортировок
+           </p>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-3">
+         <div class="card">
+           <div class="img-over">
+             <a href="#" class="btn btn-danger">подробнее</a>
+           </div>
+           <div class="image"><img src="http://cdn.tvc.ru/pictures/o/287/581.jpg" alt="image"></div>
+           <div class="text">
+             <h1>Вертолёт</h1>
+             <p></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-3">
+         <div class="card">
+           <div class="img-over">
+             <a href="#" class="btn btn-danger">подробнее</a>
+           </div>
+           <div class="image"><img src="http://www.promeli.ru/upload/iblock/93b/catalog_section_preview_img_ekstrennaya_pomoshch.png" alt="image"></div>
+           <div class="text">
+             <h1>Самолёт</h1>
+             <p></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-3">
+         <div class="card">
+           <div class="img-over">
+             <a href="#" class="btn btn-danger">подробнее</a>
+           </div>
+           <div class="image"><img src="https://img.gazeta.ru/files3/289/7596289/TASS_10259235-pic700-700x467-33055.jpg" alt="image"></div>
+           <div class="text">
+             <h1>Поезд</h1>
+             <p></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-3">
+         <div class="card">
+           <div class="img-over">
+             <a href="#" class="btn btn-danger">подробнее</a>
+           </div>
+           <div class="image"><img src="http://www.oka.fm/news2017/reanimobil600.jpg" alt="image"></div>
+           <div class="text">
+             <h1>Реанимобиль</h1>
+             <p></p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
   </section>
-  <!-- end Emergency Cases -->
+<!-- end section tisp  -->
+
+<!-- section what -->
     <section id="what">
     <div class="container">
     <div class="row">
