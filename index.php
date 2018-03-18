@@ -58,6 +58,58 @@ get_header(); ?>
 </div>
 <!-- end section about-->
 
+<!-- start what we do section -->
+<section id="what">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="section-head">
+        <h1>О нас</h1>
+        <img src="images/line.png" alt="Logo">
+        <p> Основным направлением деятельности компании «AERO DOCTOR» является предоставление
+уникальной возможности транспортировки больных за границу или по территории России
+посредством авиаперевозок. В распоряжении компании – современные вертолеты и самолет,
+которые используются для оказания квалифицированной медицинской помощи. Используемый
+авиатранспорт оснащен всей необходимой техникой для транспортировки пациентов в тяжелом и
+очень тяжелом состоянии.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card">
+        <img src="images/icon-1.png" alt="icon">
+        <h1>Эффективно</h1>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img src="images/icon-2.png" alt="icon">
+        <h1>Безопасно</h1>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img src="images/icon-3.png" alt="icon">
+        <h1>Квалифицированно</h1>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img src="images/icon-4.png" alt="icon">
+        <h1>Оперативно</h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end what we do section -->
+
 <!-- start Emergency Cases -->
   <section id="cases">
     <div class="container">
