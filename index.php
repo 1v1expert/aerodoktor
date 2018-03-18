@@ -248,6 +248,42 @@ get_header(); ?>
   </section>
 <!-- end section tisp  -->
 
+<!-- start why section -->
+<section id="why">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="section-head">
+        <h1>Транспортировка больных</h1>
+        <img src="<?php echo esc_url($aerodoktor_theme_options['line-image']); ?>" alt="">
+        <p>
+          авиатранспортом по России и зарубеж
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="bttns">
+          <a data-toggle="collapse" data-parent="#why" href="#collapse-1" aria-expanded="false"   class="btn btn-info"><i class="fa fa-ambulance"></i></a>
+          <a data-toggle="collapse" data-parent="#why" href="#collapse-2" aria-expanded="false"   class="btn btn-info"><i class="fa fa-medkit"></i></a>
+          <a data-toggle="collapse" data-parent="#why" href="#collapse-3" aria-expanded="false"   class="btn btn-info"><i class="fa fa-heart"></i></a>
+          <a data-toggle="collapse" data-parent="#why" href="#collapse-4" aria-expanded="false"   class="btn btn-info"><i class="fa fa-life-ring"></i></a>
+        </div>
+        <p id="collapse-1" class="collapse show">Собственным специализированным самолетом. От заказа самолета до его вылета проходит всего несколько часов. Подходит для транспортировки особенно тяжелой категории пациентов.</p>
+        <p id="collapse-2" class="collapse">Использование вертолета. Позволяет максимально быстро реагировать на экстренные вызовы и доставлять пострадавших для оказания квалифицированной медицинской помощи. Сотрудники компании имеют большой опыт оказания помощи, и помимо этого регулярно проходят стажировки, обучение в ведущих клиниках Москвы и РФ.</p>
+        <p id="collapse-3" class="collapse">Перевозка регулярными рейсами российских и международных авиакомпаний. При
+необходимости команда наших специалистов может сопровождать пациентов во время
+перемещения на пассажирском самолете для дальнейшего лечения.</p>
+        <p id="collapse-4" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia libero voluptates possimus perferendis tenetur, atque aliquam quod provident dignissimos tempore nisi consequatur, sint reprehenderit, blanditiis autem aliquid ad praesentium itaque! ipsum dolor sit amet, consectetur adipisicing elit. Asperiores pariatur est maxime architecto sunt veritatis labore officia assumenda ut temporibus provident porro, officiis eos iure distinctio, illo? Deleniti, distinctio ullam.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end why section -->
+
 <!-- section what -->
     <section id="what">
     <div class="container">
