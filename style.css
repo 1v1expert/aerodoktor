@@ -20,6 +20,13 @@ Text Domain: aerodoktor
 @import url(css/owl.theme.default.min.css);
 /* end importing css filles */
 /* start general styling */
+@media (min-width: 1200px){
+  .container {
+    width: 1200px;
+    max-width: 100%;
+
+  }
+}
 .btn-link {
   font-family: 'Open Sans';
   font-size: 14px;
