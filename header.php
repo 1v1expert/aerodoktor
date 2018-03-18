@@ -41,7 +41,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                         <div class="right hidden-md-down">
                             <ul>
                                 <li>
-                                    <a href="" class="btn btn-link">+7 (916)-653-71-00</a>
+                                    <a href="" class="btn btn-link"><i class="fa fa-phone"></i>+7 (916)-653-71-00</a>
                                 </li>
                             </ul>
                         </div>

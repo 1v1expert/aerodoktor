@@ -21,7 +21,7 @@
                                 <input type="text" placeholder="Ваш email">
                             </div>
                             <div class="col-lg-4">
-                                <input class="sub" type="submit" value="Отправить">
+                                <input class="sub" type="submit" value="подписаться">
                             </div>
                         </div>
                     </div>
@@ -42,17 +42,17 @@
                     <div class="blog">
                         <h1>Блог</h1>
                         <div class="post">
-                            <div class="left"><img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="post1"></div>
+                            <div class="left"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY987eV3gHQbRHyIkLZp6hHjK-uZK1T6clfi3INBV4scj0OdaI" alt="post1"></div>
                             <div class="right">
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <p class="p2">25 апреля 2017</p>
+                                <p>Лечение больных в Израиле</p>
+                                <p class="p2">25 марта 2018</p>
                             </div>
                         </div>
                         <div class="post">
-                            <div class="left"><img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt=""></div>
+                            <div class="left"><img src="http://лечение.в-германии.рф/wp-content/uploads/2016/09/klinikum-weiden-logo.jpg" alt=""></div>
                             <div class="right">
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <p class="p2">25 января 2018</p>
+                                <p>Лечение больных в Германии</p>
+                                <p class="p2">18 марта 2018</p>
                             </div>
                         </div>
                     </div>
@@ -63,13 +63,13 @@
                         <div class="social">
                             <i class="fa fa-twitter"></i>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
+                                Транспортировка больных в Израиль
                             </p>
                         </div>
                         <div class="social">
                             <i class="fa fa-twitter"></i>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
+                                Транспортировка больных в Германию
                             </p>
                         </div>
                     </div>
