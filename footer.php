@@ -32,7 +32,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                 <div class="about">
                     <h1>О нас</h1>
                     <ul>
-                        <li><a href="" class="btn btn-link"><i class="fa fa-map"></i>21471, г. Москва, Рябиновая ул., д. 43</a></li>
+                        <li><a href="" class="btn btn-link"><i class="fa fa-map"></i>г. Москва, Дорогобужская ул., д. 14</a></li>
                         <li><a href="" class="btn btn-link"><i class="fa fa-envelope"></i>info@aerodoktor.ru</a></li>
                         <li><a href="" class="btn btn-link"><i class="fa fa-phone"></i>+7 (916)-653-71-00</a></li>
                     </ul>
