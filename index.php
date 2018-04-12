@@ -263,7 +263,7 @@ get_header(); ?>
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 bttns">
       <div class="card">
         <div class="bttns">
           <a data-toggle="collapse" data-parent="#why" href="#collapse-1" aria-expanded="false"   class="btn btn-info"><i class="fa fa-ambulance"></i></a>
@@ -317,7 +317,7 @@ get_header(); ?>
   </section>
 <!-- end doc-text -->
 
-<!-- section what -->
+<!-- section what
     <section id="what">
     <div class="container">
     <div class="row">
@@ -332,6 +332,6 @@ get_header(); ?>
     </div>
   </div>
 </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>
