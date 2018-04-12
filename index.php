@@ -195,7 +195,7 @@ get_header(); ?>
        </div>
      </div>
      <div class="row">
-       <div class="col-lg-3">
+       <div class="col-lg-3 col-md-3">
          <div class="card">
            <div class="img-over">
              <a href="#" class="btn btn-danger">подробнее</a>
@@ -207,7 +207,7 @@ get_header(); ?>
            </div>
          </div>
        </div>
-       <div class="col-lg-3">
+       <div class="col-lg-3 col-md-3">
          <div class="card">
            <div class="img-over">
              <a href="#" class="btn btn-danger">подробнее</a>
@@ -219,7 +219,7 @@ get_header(); ?>
            </div>
          </div>
        </div>
-       <div class="col-lg-3">
+       <div class="col-lg-3 col-md-3">
          <div class="card">
            <div class="img-over">
              <a href="#" class="btn btn-danger">подробнее</a>
@@ -231,7 +231,7 @@ get_header(); ?>
            </div>
          </div>
        </div>
-       <div class="col-lg-3">
+       <div class="col-lg-3 col-md-3">
          <div class="card">
            <div class="img-over">
              <a href="#" class="btn btn-danger">подробнее</a>

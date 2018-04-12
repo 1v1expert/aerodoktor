@@ -79,15 +79,15 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
             <div class="col-lg-12">
                 <div class="bottom">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-sm-6">
                             <p>Copyright &copy; 2007 - 2018 AeroDoktor Theme by <a href="http://vk.com/1v1expert" >VLADDOS</a> </p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-sm-2">
                             <div class="up">
                                 <a href="#header"><i class="fa fa-arrow-up"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-4">
                             <div class="social">
                                 <a href=""><i class="fa fa-gitlab"></i></a>
                                 <a href=""><i class="fa fa-twitter"></i></a>
