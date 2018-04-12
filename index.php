@@ -263,9 +263,9 @@ get_header(); ?>
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-12 bttns">
+    <div class="col-lg-12">
       <div class="card">
-        <div class="bttns">
+        <div class="col-lg-12 bttns">
           <a data-toggle="collapse" data-parent="#why" href="#collapse-1" aria-expanded="false"   class="btn btn-info"><i class="fa fa-ambulance"></i></a>
           <a data-toggle="collapse" data-parent="#why" href="#collapse-2" aria-expanded="false"   class="btn btn-info"><i class="fa fa-medkit"></i></a>
           <a data-toggle="collapse" data-parent="#why" href="#collapse-3" aria-expanded="false"   class="btn btn-info"><i class="fa fa-heart"></i></a>

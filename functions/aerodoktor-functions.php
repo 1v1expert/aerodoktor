@@ -29,6 +29,7 @@ function aerodoktor_add_script_function() {
     wp_register_script('jquery-dop', get_template_directory_uri() . '/js/jquery-1.9.1.min.js');
     wp_enqueue_script('jquery-dop');
     wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js');
+    wp_enqueue_script('tether-js', get_template_directory_uri() . '/js/tether.min.js');
     wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js');
     wp_enqueue_script('owl.carousel', get_template_directory_uri() . '/js/owl.carousel.min.js');
