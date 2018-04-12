@@ -28,7 +28,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <div class="about">
                     <h1>О нас</h1>
                     <ul>
@@ -38,7 +38,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <div class="blog">
                     <h1>Блог</h1>
                     <div class="post">
@@ -57,7 +57,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <div class="tweets">
                     <h1>Твиттер</h1>
                     <div class="social">
@@ -72,17 +72,6 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                             Транспортировка больных в Германию
                         </p>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="projects">
-                    <h1>Проекты</h1>
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
-                    <img src="<?php echo esc_url($aerodoktor_theme_options['placeholder_image']); ?>" alt="">
                 </div>
             </div>
         </div>

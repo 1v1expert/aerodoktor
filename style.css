@@ -297,16 +297,17 @@ Text Domain: aerodoktor
         width: 32px;
         height: 32px; }
     #header .head .right .right {
-      margin-top: 8px; }
+      margin-top: 15px; }
       #header .head .right .right p {
         font-family: 'Open Sans';
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 27px;
+        font-weight: 600;
         line-height: 28px;
-        letter-spacing: 1px;
-        text-transform: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
         color: #fff;
-        line-height: 20px; }
+        line-height: 20px;
+        white-space: nowrap;}
 
 /* end header */
 /* start navabr */
@@ -647,7 +648,8 @@ Text Domain: aerodoktor
     display: -ms-flexbox;
     display: flex;
     border-bottom: 1px solid #2e2e2e;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #939393;}
     #footer .tweets .social:last-child {
       border: 0;
       margin-bottom: 0; }
@@ -1166,7 +1168,8 @@ Text Domain: aerodoktor
     #why .card .bttns {
       position: absolute;
       top: -46px;
-      left: 350px; }
+      /*left: 350px;*/
+      left: 0;}
       @media (max-width: 790px) {
         #why .card .bttns {
           position: relative;
@@ -1198,7 +1201,7 @@ Text Domain: aerodoktor
       font-weight: 400;
       line-height: 28px;
       letter-spacing: 1px;
-      text-transform: capitalize; }
+      text-transform: none; }
 
 /* why */
 /* doc */
@@ -2566,6 +2569,7 @@ Text Domain: aerodoktor
 /* NEOPOZNANO */
 #top-nav {
     background-image: -webkit-linear-gradient(0deg, #360033 0%, #3498db 100%);
+    margin-bottom: -1px;
 }
 .chromeframe {
     margin: 0.2em 0;

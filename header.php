@@ -14,6 +14,35 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php wp_head(); ?>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48462620 = new Ya.Metrika({
+                    id:48462620,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/48462620" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body <?php body_class(); ?>>
     <!-- loader -->
@@ -63,28 +92,12 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
                     <div class="col-lg-9">
                         <div class="right hidden-md-down">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-12">
                                     <div class="left">
-                                        <img src="<?php echo esc_url($aerodoktor_theme_options['clock_image']); ?>" alt="Clock">
+                                        <img src="<?php echo esc_url($aerodoktor_theme_options['addres_image']); ?>" alt="phone">
                                     </div>
                                     <div class="right">
-                                        <p>Работаем круглосуточно - 24/7</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="left">
-                                        <img src="<?php echo esc_url($aerodoktor_theme_options['addres_image']); ?>" alt="addres">
-                                    </div>
-                                    <div class="right">
-                                        <p> 21471, г. Москва, Рябиновая ул., д. 43</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="left">
-                                        <img src="<?php echo esc_url($aerodoktor_theme_options['phone_image']); ?>" alt="phone">
-                                    </div>
-                                    <div class="right">
-                                        <p>+7 (916)-653-71-00 info@aerodoktor.ru</p>
+                                        <p>+7 (916)-653-71-00 | info@aerodoktor.ru</p>
                                     </div>
                                 </div>
                             </div>
