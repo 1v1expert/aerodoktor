@@ -27,6 +27,11 @@ Text Domain: aerodoktor
 
   }
 }
+@media (max-width: 370px){
+  .hidden-header {
+    display: none!important;
+  }
+}
 .btn-link {
   font-family: 'Open Sans';
   font-size: 14px;
@@ -1387,8 +1392,8 @@ Text Domain: aerodoktor
       padding: 20px 40px;
       border-bottom: 1px solid #f0f0f0; }
     #navbar .navbar-toggler {
-      background-color: #fff;
-      border: 0; }
+      background-color: rgba(0, 0, 0, 0);
+      border: 3px dashed white; }
       #navbar .navbar-toggler .navbar-toggler-icon {
         color: #3579b8; }
     #navbar .input-group {
