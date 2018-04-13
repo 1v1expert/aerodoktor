@@ -8,7 +8,34 @@
 /**
  * Loads theme setup functions.
  */
+function aerodoktor_setup() {
+	/**
+ 	* This theme styles the visual editor with editor-style.css to match the theme style.
+ 	*/
+	add_editor_style();
 
+	/**
+ 	 * Default RSS feed links
+	 */
+	add_theme_support('automatic-feed-links');
+
+	/**
+	 * Let WordPress manage the document title.
+	 */
+	add_theme_support( 'title-tag' );
+
+	/**
+ 	* Register Navigation
+ 	*/
+	register_nav_menu('main_navigation', __('Primary Menu', 'aerodoktor') );
+
+	/**
+ 	* Support a variety of post formats.
+ 	*/
+	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'audio', 'gallery' ) );
+}
+
+add_action( 'after_setup_theme', 'aerodoktor_setup' );
 
 /**
  * Add scripts function
