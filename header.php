@@ -14,13 +14,13 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php wp_head(); ?>
-    <!-- Yandex.Metrika counter -->
+   <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter48462620 = new Ya.Metrika({
-                    id:48462620,
+                w.yaCounter48466223 = new Ya.Metrika({
+                    id:48466223,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
@@ -41,7 +41,7 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/48462620" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/48466223" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body <?php body_class(); ?>>
