@@ -133,36 +133,6 @@ $aerodoktor_theme_options = aerodoktor_get_options( 'aerodoktor_theme_options' )
           </li>
         </ul>
 
-        <?php
-					if (has_nav_menu('main_navigation')) {
-
-						$modality_default_menu = array(
-    						'theme_location'  => 'main_navigation',
-							'menu'       => 'main_navigation',
-    						'depth'      => 0,
-    						'container'  => false,
-    						'menu_class' => 'nav navbar-nav',
-                			'fallback_cb'       => 'wp_page_menu',
-    						'walker'     => '',
-						);
-
-					} else {
-
-						$modality_default_menu = array(
-    						'theme_location'  => 'main_navigation',
-							'menu'       => 'main_navigation',
-    						'depth'      => 0,
-    						'container'  => false,
-    						'menu_class' => 'nav-bar',
-                			'fallback_cb'       => 'wp_page_menu',
-						);
-
-					}
-
-					wp_nav_menu( $modality_default_menu );
-
-					?>
-
         <form class="form-inline input-group hidden-md-down">
           <input class="form-control" type="text" placeholder="Найти">
           <button class="btn btn-outline-success input-group-addon" type="submit"><i class="fa fa-search"></i></button>
